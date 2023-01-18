@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# So i will just cover major components in this read me
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website is builded using javascript and framework is react
+You would also need to make sure that javascript, node js, IDE(visual studio code or any other IDE) is installed in your computer to run this website
+To start this wesbsite go to terminal and pass command: npm start
 
-## Available Scripts
+If you want to make any changes in the website then go to :
+For (First page: This is where you type the search query)home page: Go to src -> Components -> Home
+For (second page: This is where results are shown for your typed query and also you can pass filter query) results page: Go to src -> Components -> results
+For (Visualization page: This is where map is shown with data points) Visualization page: Go to src -> Components -> visualization
+For (Disaster Details page: This page is shown when i click on a particular disaster and details are shown) Result details page: Go to src -> components -> result_details
 
-In the project directory, you can run:
+So .js files contain the logic code and layout code (website template) and .css files contains component design properties.
 
-### `npm start`
+Also you would have to create a account on https://kepler.gl/ website to get the mapboxApiAccessToken. To make the load the map on the website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To store api results i have also used redux in this website. To change anything in redux: Go to src -> redux
+So, basically redux is used to manage state and store values globally. 
+In src -> images -> disasterImages i have stored all the disaster type images that i show when displaying the results.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For other things i have included comments in code at major places for you to understand what my codes does.
