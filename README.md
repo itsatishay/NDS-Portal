@@ -1,5 +1,7 @@
 # So i will just cover major components in this read me
-
+![](nds_portal_homepage.png)
+![](nds_portal_results.png)
+![](nds_portal_visualization.png)
 This website is builded using javascript and framework is react
 You would also need to make sure that javascript, node js, IDE(visual studio code or any other IDE) is installed in your computer to run this website
 To start this wesbsite go to terminal and pass command: npm start
